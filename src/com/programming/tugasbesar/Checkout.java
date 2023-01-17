@@ -22,4 +22,5 @@ public class Checkout {
     private JLabel totalLabel;
     private JLabel totalValue;
     private JLabel paymentMethodLabel;
+    private JLabel checkoutTitle;
 }
