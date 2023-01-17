@@ -13,34 +13,34 @@
           <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Label"/>
+          <text value="Debit Payment"/>
         </properties>
       </component>
-      <component id="45a36" class="javax.swing.JLabel">
+      <component id="45a36" class="javax.swing.JLabel" binding="totalLabel">
         <constraints>
-          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Label"/>
+          <text value="Total Pembayaran"/>
         </properties>
       </component>
-      <component id="a12ba" class="javax.swing.JLabel">
+      <component id="a12ba" class="javax.swing.JLabel" binding="totalValue">
         <constraints>
-          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Label"/>
+          <text value="222.000"/>
         </properties>
       </component>
-      <component id="7c913" class="javax.swing.JLabel">
+      <component id="7c913" class="javax.swing.JLabel" binding="cardNameLabel">
         <constraints>
-          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Label"/>
+          <text value="Cardholder Name"/>
         </properties>
       </component>
-      <component id="5d107" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+      <component id="5d107" class="javax.swing.JTextField" binding="cardHolderName">
         <constraints>
           <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -56,7 +56,7 @@
           <text value="Nomor Kartu"/>
         </properties>
       </component>
-      <component id="14a72" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+      <component id="14a72" class="javax.swing.JTextField" binding="cardNumber">
         <constraints>
           <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -64,15 +64,15 @@
         </constraints>
         <properties/>
       </component>
-      <component id="6afe3" class="javax.swing.JLabel">
+      <component id="6afe3" class="javax.swing.JLabel" binding="expCardDateLabel">
         <constraints>
           <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Label"/>
+          <text value="MM/YY"/>
         </properties>
       </component>
-      <component id="f0040" class="javax.swing.JPasswordField" binding="passwordField1" default-binding="true">
+      <component id="f0040" class="javax.swing.JPasswordField" binding="ccv">
         <constraints>
           <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -80,7 +80,7 @@
         </constraints>
         <properties/>
       </component>
-      <component id="745e4" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+      <component id="745e4" class="javax.swing.JTextField" binding="expCardDate">
         <constraints>
           <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -88,20 +88,20 @@
         </constraints>
         <properties/>
       </component>
-      <component id="4d736" class="javax.swing.JLabel">
+      <component id="4d736" class="javax.swing.JLabel" binding="ccvLabel">
         <constraints>
           <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Label"/>
+          <text value="CVV/CVC"/>
         </properties>
       </component>
-      <component id="7c2b8" class="javax.swing.JButton" binding="button1" default-binding="true">
+      <component id="7c2b8" class="javax.swing.JButton" binding="bayarButton" default-binding="true">
         <constraints>
           <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="Bayar"/>
         </properties>
       </component>
     </children>
