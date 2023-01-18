@@ -33,7 +33,7 @@ public class Checkout extends JFrame{
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 
         //menentukan resolusi window/frame
-        this.setSize( 350,400);
+        this.setSize( 530,400);
 
         //menentukan panel mana yang akan dijadikan konten
         this.setContentPane(checkoutPanel);
