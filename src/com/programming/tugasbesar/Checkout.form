@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.programming.tugasbesar.Checkout">
-  <grid id="27dc6" binding="checkoutPanel" layout-manager="GridLayoutManager" row-count="8" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="checkoutPanel" layout-manager="GridLayoutManager" row-count="8" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="526" height="555"/>
+      <xy x="20" y="20" width="1269" height="929"/>
     </constraints>
     <properties>
       <enabled value="true"/>
@@ -11,12 +11,11 @@
     <border type="none" title=""/>
     <children>
       <grid id="d1a47" binding="FilmDetails" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-        <margin top="10" left="100" bottom="10" right="250"/>
+        <margin top="10" left="10" bottom="10" right="250"/>
         <constraints>
-          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="2" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <background color="-16777216"/>
           <enabled value="false"/>
         </properties>
         <border type="none"/>
@@ -26,7 +25,6 @@
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <foreground color="-1"/>
               <text value="Avatar n Friends (3D)"/>
             </properties>
           </component>
@@ -35,7 +33,6 @@
               <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <foreground color="-1"/>
               <text value="21+"/>
             </properties>
           </component>
@@ -44,7 +41,6 @@
               <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <foreground color="-1"/>
               <text value="Minggu, 1 Maret 2023"/>
             </properties>
           </component>
@@ -53,7 +49,6 @@
               <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <foreground color="-1"/>
               <text value="17:00"/>
             </properties>
           </component>
@@ -62,7 +57,7 @@
       <grid id="84bf" binding="tiketDetailPanel" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="20" left="150" bottom="10" right="150"/>
         <constraints>
-          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="0" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties/>
         <border type="none"/>
@@ -100,7 +95,7 @@
       <grid id="8e702" binding="paymentPanel" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="0" left="25" bottom="0" right="0"/>
         <constraints>
-          <grid row="6" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="6" column="0" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties/>
         <border type="none"/>
@@ -144,7 +139,7 @@
       <grid id="dbb06" binding="priceLabelPanel" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="10" left="25" bottom="10" right="0"/>
         <constraints>
-          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties/>
         <border type="none"/>
@@ -178,7 +173,7 @@
       <grid id="97c72" binding="pricePanel" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="10" left="0" bottom="10" right="25"/>
         <constraints>
-          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties/>
         <border type="none"/>
@@ -212,7 +207,7 @@
       <grid id="4789a" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="0" left="0" bottom="20" right="0"/>
         <constraints>
-          <grid row="7" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="7" column="0" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties/>
         <border type="none"/>
@@ -229,7 +224,7 @@
       </grid>
       <component id="ebef" class="javax.swing.JSeparator">
         <constraints>
-          <grid row="5" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+          <grid row="5" column="0" row-span="1" col-span="5" vsize-policy="6" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
             <minimum-size width="100" height="1"/>
             <preferred-size width="470" height="1"/>
             <maximum-size width="1000" height="1"/>
@@ -241,7 +236,7 @@
       </component>
       <component id="aa0bc" class="javax.swing.JSeparator">
         <constraints>
-          <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+          <grid row="3" column="0" row-span="1" col-span="5" vsize-policy="6" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
             <minimum-size width="100" height="1"/>
             <preferred-size width="470" height="1"/>
             <maximum-size width="1000" height="1"/>
@@ -254,7 +249,7 @@
       <grid id="770b0" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="10" left="0" bottom="5" right="0"/>
         <constraints>
-          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties/>
         <border type="none"/>
@@ -270,6 +265,25 @@
               <foreground color="-16777216"/>
               <horizontalAlignment value="0"/>
               <text value="Checkout"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="e0c7" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="4" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="4f1b4" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="com/programming/tugasbesar/Assets/logo100.jpg"/>
+              <text value=""/>
             </properties>
           </component>
         </children>
