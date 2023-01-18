@@ -2,7 +2,7 @@ package com.programming.tugasbesar;
 
 import javax.swing.*;
 
-public class Checkout {
+public class Checkout extends JFrame{
     private JRadioButton QRISRadioButton;
     private JRadioButton debitCardCreditCardRadioButton;
     private JRadioButton mobileBankingRadioButton;
@@ -23,4 +23,26 @@ public class Checkout {
     private JLabel totalValue;
     private JLabel paymentMethodLabel;
     private JLabel checkoutTitle;
+    private JPanel checkoutPanel;
+
+    public  Checkout(){
+        //menentukan judul aplikasi
+        super("Checkout");
+
+        //menentukan apa yang terjadi jika tombol [x] ditekan
+        this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+
+        //menentukan resolusi window/frame
+        this.setSize( 350,400);
+
+        //menentukan panel mana yang akan dijadikan konten
+        this.setContentPane(checkoutPanel);
+
+    }
+
+    public static void main(String[] args) {
+        JFrame checkoutFrame = new Checkout();
+        checkoutFrame.setVisible(true);
+    }
+
 }
